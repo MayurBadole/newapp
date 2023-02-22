@@ -1,8 +1,13 @@
-function App(){
-    return (
-        <h1> mayu</h1>
-        
-    )
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route   />
+      </Routes>
+    </Router>
+  )
 }
 export default App;
+ 
